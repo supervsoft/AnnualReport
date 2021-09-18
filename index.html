@@ -1,42 +1,65 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+
+    <style>
+        .Shadow {
+            min-height: 200px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #ddd">
+    <div class="container">
+        <h2></h2>
+        <div class="panel panel-default Shadow">
+            <div class="panel-body"></div>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2 font-size:large">Annual Report</label>
+                    <div class="col-sm-2">
+                        <a href="doc/file-sample_150kB.pdf" class="btn btn-warning form-control">Download Annual Report</a>
+                    </div>
+                    <label class="control-label col-sm-2">Zoom Meeting</label>
+                    <div class="col-sm-2">
+                        <a href="https://us04web.zoom.us/j/71026249921?pwd=VHpKdVFpSUluSllXK1pEajZiOXlkQT09" class="btn btn-success form-control">Zoom Meeting</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel panel-default Shadow">
+            <div class="panel-body">
+                A Basic Panel
+                <br />Address
+            </div>
 
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @SuperSolutions 2021
+            </div>
 
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
+
 
 </body>
 </html>
 
-<html>
+<!--<html>
 <a href="https://www.google.co.in/">Open Google</a>
 <a href="https://www.google.co.in/">Open Google</a>
 <a href="https://www.google.co.in/">Open Google</a>
-</html>
+</html>-->
